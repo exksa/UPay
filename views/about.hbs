@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us - ÜPay Official Website</title>
+</head>
+<link rel="icon" href="/assets/images/icon.png">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="kiri">
+				<ul>
+					<li><img src="/assets/images/logo-white.png" style="width: 110px;"></li>
+				</ul>
+			</div>
+			<div class="tengah">
+				<center><ul>
+					<li><a href="http://localhost:8000">Home</a></li>
+					<li><a href="http://localhost:8000/service">Service</a></li>
+					<li><a href="http://localhost:8000/team">Team</a></li>
+					<li><a href="http://localhost:8000/about">About Us</a></li>
+					<li><a href="http://localhost:8000/help">Help</a></li>
+				</ul></center>
+			</div>
+			<div class="kanan">
+				<ul>
+					<li class="log"><a href="http://localhost:8000/login"><button>Login</button></a></li>
+					<li class="sig"><button>Sign Up</button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="banner-about">
+			{{#each results}}
+			<div class="container" style="text-align: left;">
+				<h2 style="font-size: 60px;">{{ judul }}</h2><br>
+				<p style="font-size: 22px;"">{{ des }}</p><br>
+			</div>
+			{{/each}}
+		</div>
+		<div class="feature-about" style="background-color: #fff2dc;">
+			<div class="container">
+				<ul>
+					<li>
+						<img src="/assets/images/a1.svg"><br><br>
+						<h2>No Hidden Fees</h2><br>
+						<p>It costs nothing to pay with UPay,<br>you'll only be charged a fee when<br>you sell something or request a<br>payment.</p>
+					</li>
+					<li><img src="/assets/images/a4.svg"><br><br>
+						<h2>Free Return Shipping</h2><br>
+						<p>Changed your mind on your<br>purchase? Ship it back and get a<br>refund of up to US$20 on return<br>shipping*.</p>
+					</li>
+					<li><img src="/assets/images/a2.svg"><br><br>
+						<h2>Earn Rewards</h2><br>
+						<p>We work with local and overseas<br>banks so you can use your<br>preferred card/s and continue<br>earning rewards.</p>
+					</li>
+					<li><img src="/assets/images/a3.svg"><br><br>
+						<h2>Always Protected</h2><br>
+						<p>Shopping with UPay is safer with<br>Buyer Protection, 24/7 anti-fraud<br>monitoring and world class<br>security*.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="help-service">
+				<ul>
+					<li>
+						<div class="container" style="padding: 60px 0px 100px 0px;">
+						<img src="/assets/images/A-1.gif">
+						<br><br><h2>Pay Touch-Free with UPay.</h2><br>
+						<p>With the UPay app, the only thing you need to touch when you pay in-person, is your own phone.</p><br>
+						<button style="background-color: #f5f7fa;">Learn More</button>
+						</div>
+					</li>
+					<li>
+						<div class="container" style="padding: 60px 0px 100px 0px;">
+						<img src="/assets/images/A-2.gif">
+						<br><h2>Send money to friends<br>with the UPay app</h2><br>
+						<p>Do more with friends – send money, split bills and pool funds from UPay friends quickly and easily, with just a mobile number or email address.+</p><br>
+						<button style="background-color: white;">Learn More</button>
+						</div>
+					</li>
+					<li>
+						<div class="container" style="padding: 60px 0px 100px 0px;">
+						<img src="/assets/images/A-3.gif">
+						<br><br><h2>Fly through checkout</h2><br>
+						<p>Checkout online and in apps in seconds. Use your UPay login to skip entering your payment details and keep earning rewards from your favorite cards.</p><br>
+						<button style="background-color: #f5f7fa;">Learn More</button>
+						</div>
+					</li>
+				</ul>
+		</div>
+	<div class="footer">
+		<div class="container"><center>
+			<div class="top">
+				<img src="/assets/images/flag.jpg" style="width: 30px;"><br>
+				<ul><b>
+					<li>Help</li>
+					<li>Contact</li>
+					<li>Fees</li>
+					<li>Security</li>
+					<li>Apps</li>
+					<li>Shop</li></b>
+				</ul>
+			</div>
+			<div class="sub">
+				<ul><b>
+					<li>About</li>
+					<li>Newsroom</li>
+					<li>Jobs</li>
+					<li>Investor Relations</li>
+					<li>Social Innovation</li>
+					<li>Public Policy</li>
+					<li>Sitemap</li>
+					<li>Enterprise</li>
+					<li>Partners</li></b>
+				</ul>
+			</div><br><br>
+			<p>©2020 All rights reserved. Website HTML by Kelompok 5</p><br>
+		</center></div>
+	</div>
+</body>
+</html>

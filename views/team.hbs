@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team - ÜPay Official Website</title>
+</head>
+<link rel="icon" href="/assets/images/icon.png">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="kiri">
+				<ul>
+					<li><img src="/assets/images/logo-white.png" style="width: 110px;"></li>
+				</ul>
+			</div>
+			<div class="tengah">
+				<center><ul>
+					<li><a href="http://localhost:8000">Home</a></li>
+					<li><a href="http://localhost:8000/service">Service</a></li>
+					<li><a href="http://localhost:8000/team">Team</a></li>
+					<li><a href="http://localhost:8000/about">About Us</a></li>
+					<li><a href="http://localhost:8000/help">Help</a></li>
+				</ul></center>
+			</div>
+			<div class="kanan">
+				<ul>
+					<li class="log"><a href="http://localhost:8000/login"><button>Login</button></a></li>
+					<li class="sig"><button>Sign Up</button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="notes-team">
+			<div class="container">
+				<h2>Build Modern Commerce with us.</h2><br><br>
+				<p style="font-size: 22px;">Developer tools and resources to integrate ÜPay Commerce Platform.<br>Learn more about our mission to improve the ÜPay developer experience.</p>
+			</div>
+		</div>
+		<div class="feature-team">
+			<div class="container">
+				<h2 style="font-size: 40px;">Our Team</h2><br><br><hr><br>
+				<p>Kami terdiri dari ratusan karyawan dan angka tersebut terus berkembang. Tim kami berupaya membantu<br>pemilik bisnis berjualan online melalui website, serta bekerjasama dengan brand multinasional di berbagai industri untuk<br>menyediakan produknya di marketplace. Dengan misi tersebut, kami menyalurkan passion kami untuk berkontribusi kepada<br>masyarakat dalam mengembangkan bisnis mereka melalui ranah digital bersama dengan ÜPay.</p><br><hr style="margin-bottom: 60px;">
+				<ul>
+					{{#each results}}
+					<li>
+						<img src="/assets/images/{{ image }}"><br><br>
+						<h2>{{ name }}</h2><br>
+						<p style="font-size: 15px;"><b>{{ status }}</b></p><br>
+						<i style="font-size: 14px;">{{ job }}</i><br><br>
+						<p style="font-size: 13px;">({{ nim }})</p>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	<div class="footer">
+		<div class="container"><center>
+			<div class="top">
+				<img src="/assets/images/flag.jpg" style="width: 30px;"><br>
+				<ul><b>
+					<li>Help</li>
+					<li>Contact</li>
+					<li>Fees</li>
+					<li>Security</li>
+					<li>Apps</li>
+					<li>Shop</li></b>
+				</ul>
+			</div>
+			<div class="sub">
+				<ul><b>
+					<li>About</li>
+					<li>Newsroom</li>
+					<li>Jobs</li>
+					<li>Investor Relations</li>
+					<li>Social Innovation</li>
+					<li>Public Policy</li>
+					<li>Sitemap</li>
+					<li>Enterprise</li>
+					<li>Partners</li></b>
+				</ul>
+			</div><br><br>
+			<p>©2020 All rights reserved. Website HTML by Kelompok 5</p><br>
+		</center></div>
+	</div>
+</body>
+</html>

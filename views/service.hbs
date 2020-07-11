@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Service - ÜPay Official Website</title>
+</head>
+<link rel="icon" href="/assets/images/icon.png">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="kiri">
+				<ul>
+					<li><img src="/assets/images/logo-white.png" style="width: 110px;"></li>
+				</ul>
+			</div>
+			<div class="tengah">
+				<center><ul>
+					<li><a href="http://localhost:8000">Home</a></li>
+					<li><a href="http://localhost:8000/service">Service</a></li>
+					<li><a href="http://localhost:8000/team">Team</a></li>
+					<li><a href="http://localhost:8000/about">About Us</a></li>
+					<li><a href="http://localhost:8000/help">Help</a></li>
+				</ul></center>
+			</div>
+			<div class="kanan">
+				<ul>
+					<li class="log"><a href="http://localhost:8000/login"><button>Login</button></a></li>
+					<li class="sig"><button>Sign Up</button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="notes" style="background-color: white; color: black;">
+			<div class="container">
+				<br><h3>ÜPay Commerce Platform</h3><br>
+				<h2 style="font-size: 40px;">The platform that grows with you</h2><br>
+				<p style="font-size: 13px;">ÜPay Commerce Platform is a comprehensive solution designed to serve your business needs and your customers,<br>whether you’re just getting started or already a thriving enterprise or marketplace.</p><br>
+				<p style="font-size: 13px;">Leveraging our two-sided network, the platform lets you connect with more than 295 million ÜPay customers around<br>the world and across many platforms and marketplaces. Now you can find new markets, new channels, new high-value<br>customers. All while giving your customers the freedom to buy how they want—nearly anywhere in the world.</p><br><br>
+				<button>Sign Up for Free</button><br><br>
+			</div>
+		</div>
+		<div class="feature-service">
+			<div class="container">
+				<h2>Built for you, no matter what your size</h2><br>
+				<p>Whether you’re a small business, ecommerce platform, marketplace, enterprise, or developer,<br> PayPal Commerce Platform offers what you need to run your business and help it grow.</p><br><br><br>
+				<ul>
+					<li>
+						<img src="/assets/images/b1.webp"><br><br>
+						<p>Accept payments</p><br>
+					</li>
+					<li><img src="/assets/images/b2.webp"><br><br>
+						<p>Make payments</p><br>
+					</li>
+					<li><img src="/assets/images/b3.webp"><br><br>
+						<p>Manage risk</p><br>
+					</li>
+					<li><img src="/assets/images/b4.webp"><br><br>
+						<p>Accelerate growth</p><br>
+					</li>
+					<li><img src="/assets/images/b5.webp"><br><br>
+						<p>Streamline operations</p><br>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="service">
+			<div class="container">
+				<ul>
+					{{#each results}}
+					<li>
+						<img src="/assets/images/{{ image }}">
+						<h2>{{ name }}</h2><br>
+						<p>{{ des }}</p><br>						
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	<div class="footer">
+		<div class="container"><center>
+			<div class="top">
+				<img src="/assets/images/flag.jpg" style="width: 30px;"><br>
+				<ul><b>
+					<li>Help</li>
+					<li>Contact</li>
+					<li>Fees</li>
+					<li>Security</li>
+					<li>Apps</li>
+					<li>Shop</li></b>
+				</ul>
+			</div>
+			<div class="sub">
+				<ul><b>
+					<li>About</li>
+					<li>Newsroom</li>
+					<li>Jobs</li>
+					<li>Investor Relations</li>
+					<li>Social Innovation</li>
+					<li>Public Policy</li>
+					<li>Sitemap</li>
+					<li>Enterprise</li>
+					<li>Partners</li></b>
+				</ul>
+			</div><br><br>
+			<p>©2020 All rights reserved. Website HTML by Kelompok 5</p><br>
+		</center></div>
+	</div>
+</body>
+</html>
